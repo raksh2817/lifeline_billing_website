@@ -9,7 +9,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    content: "(248) 376-9822",
+    content: "+1 (248) 376-9822",
     link: "tel:+12483769822"
   },
   {
@@ -221,7 +221,7 @@ export default function Contact() {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-3 rounded-lg border border-border focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
-                        placeholder="John Doe"
+                        
                       />
                     </div>
                     <div>
@@ -236,7 +236,7 @@ export default function Contact() {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-3 rounded-lg border border-border focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
-                        placeholder="john@example.com"
+                        
                       />
                     </div>
                   </div>
@@ -244,7 +244,7 @@ export default function Contact() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <label htmlFor="phone" className="block text-sm font-medium text-dark mb-2">
-                        Phone Number
+                        Phone Number *
                       </label>
                       <input
                         type="tel"
@@ -253,7 +253,7 @@ export default function Contact() {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 rounded-lg border border-border focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
-                        placeholder="(555) 123-4567"
+                        
                       />
                     </div>
                     <div>
@@ -267,7 +267,7 @@ export default function Contact() {
                         value={formData.company}
                         onChange={handleChange}
                         className="w-full px-4 py-3 rounded-lg border border-border focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
-                        placeholder="ABC Medical Practice"
+                        
                       />
                     </div>
                   </div>
@@ -359,8 +359,8 @@ export default function Contact() {
               Book a free 30-minute consultation with one of our RCM specialists 
               to discuss your specific needs.
             </p>
-            <Button href="tel:+16305601319">
-              Call (630) 560-1319
+            <Button href="tel:+12483769822">
+              Call +1 (248) 376-9822
             </Button>
           </div>
         </Container>
