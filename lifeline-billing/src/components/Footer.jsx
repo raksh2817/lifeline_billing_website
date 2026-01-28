@@ -105,7 +105,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <Phone className="w-4 h-4 text-white/50 mt-1 flex-shrink-0" />
                 <span className="text-[15px] text-white/70">
-                  (630) 560-1319
+                  +1 (248) 376-9822
                 </span>
               </li>
               <li className="flex items-start gap-3">
